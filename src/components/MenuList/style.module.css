@@ -1,5 +1,5 @@
 .container {
-  border: 3px solid grey;
+  /* border: 3px solid grey; */
   height: 250px;
   width: 250px;
   display: flex;

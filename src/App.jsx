@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { DisplayDifficulty } from "./components/DisplayDifficulty/DisplayDifficulty";
 import { MenuList } from "./components/MenuList/MenuList";
+import "./global.css";
 import s from "./style.module.css";
 
 export function App() {
@@ -11,7 +12,7 @@ export function App() {
   }
 
   return (
-    <div>
+    <div className="main">
       <h1 className={s.title}>Select your React difficulty</h1>
       <div className={s.workspace}>
         <MenuList
